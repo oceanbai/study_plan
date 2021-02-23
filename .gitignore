@@ -1,0 +1,10 @@
+META-INF
+*.iml
+deployEnv/
+deploy/
+.idea/
+target/
+logs/
+/*/target
+com1/
+com/
