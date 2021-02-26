@@ -8,11 +8,11 @@
         <artifactId>ocean-study-parent</artifactId>
         <version>1.0</version>
     </parent>
-    <groupId>org.study.plan.algorithm</groupId>
-    <artifactId>algorithm</artifactId>
+    <groupId>org.study.plan.java_basis</groupId>
+    <artifactId>java_basis</artifactId>
     <version>1.0</version>
 
-    <name>algorithm</name>
+    <name>java_basis</name>
     <url>http://maven.apache.org</url>
 
     <build>

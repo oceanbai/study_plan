@@ -1,4 +1,6 @@
-package org.study.algorithm.tree;
+package org.study.algorithm;
+
+import org.study.algorithm.node.TreeNode;
 
 /**
  * @author bby15929

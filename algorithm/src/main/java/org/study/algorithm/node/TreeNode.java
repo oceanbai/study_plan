@@ -1,4 +1,4 @@
-package org.study.algorithm.tree;
+package org.study.algorithm.node;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -8,24 +8,24 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
-    TreeNode() {
+    public TreeNode() {
     }
 
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
     }
 
-   static TreeNode getDemo1(){
+    public static TreeNode getDemo1() {
 //          4
 //        /   \
 //       2     7
@@ -47,13 +47,13 @@ public class TreeNode {
         return treeNode;
     }
 
-   static void DLR(TreeNode node) {
-       if (node == null) {
-           return;
-       }
-       log.info(node.val + "");
-       DLR(node.left);
+    public static void DLR(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        log.info(node.val + "");
+        DLR(node.left);
 
-       DLR(node.right);
-   }
+        DLR(node.right);
+    }
 }
